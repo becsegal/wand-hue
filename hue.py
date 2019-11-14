@@ -3,7 +3,7 @@ from phue import Bridge
 
 class Hue:
   def __init__(self):
-    self.ip = '192.168.1.71'
+    self.ip = 'Philips-hue.local'
     self.bridge = Bridge(self.ip)
 
   def pink(self) :
